@@ -1,3 +1,9 @@
+#Note Fabian
+
+Creación de mi primer proyecto en ember-cli, aprendizaje de este nuevo lenguaje.
+
+
+
 # Testing
 
 This README outlines the details of collaborating on this Ember application.

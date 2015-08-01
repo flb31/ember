@@ -1,0 +1,10 @@
+ember generate resource friends firstName:string lastName:string
+ember g adapter application
+ember server --proxy http://api.ember-cli-101.com
+ember g route friends/new
+ember g template friends/-form
+ember g controller friends/new
+ember g route friends/show --path=:friend_id
+ember g route friends/edit --path=:friend_id/edit
+ember g controller friends/edit
+ember g controller friends/base
