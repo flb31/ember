@@ -8,3 +8,11 @@ ember g route friends/show --path=:friend_id
 ember g route friends/edit --path=:friend_id/edit
 ember g controller friends/edit
 ember g controller friends/base
+----------
+new extensions put in bower.json
+bower install #install extensions in the app
+add picnic css
+fontello
+ember generate resource articles createdAt:date description:string notes:string state:string
+
+#specificate belongsTo in "ember generator" ember g resource articles friend:belongsTo ....
